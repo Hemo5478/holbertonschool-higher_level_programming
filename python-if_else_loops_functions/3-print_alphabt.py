@@ -2,4 +2,4 @@
 for i in range(97, 123):
 	char = chr(i)
 	if char not in ['q', 'e']:
-		print("{}".format(char), end='')
+		print("{0}".format(char), end='')
