@@ -5,5 +5,5 @@ if number > 0:
     print(random, ' is positive')
 elif number < 0:
     print(random, ' is negative')
-elif number == 0:
+else:
     print(random, 'is zero')
