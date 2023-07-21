@@ -1,5 +1,5 @@
 #!/usr/bin/python3
 for i in range(97, 123):
-	char = chr(i)
-	if char not in ['q', 'e']:
-		print("{:s}".format(char), end='')
+    if i in [101, 113]:
+        continue
+    print("{}".format(chr(i)), end='')
