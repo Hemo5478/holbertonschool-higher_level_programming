@@ -5,7 +5,6 @@ a = str(number)
 length = len(a)
 b = a[length-1:length]
 last_digit = int(b)
-message = ''
 if last_digit > 5:
     message = 'and is greater than 5'
 elif last_digit < 6 and last_digit != 0:
