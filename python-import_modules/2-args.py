@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 from sys import argv
 if __name__ == "__main__":
-    num_args = len(argv) - 1
-    print("{:d} argument{}".format(num_args, "" if num_args == 1 else "s"), end="")
-    print("{}".format("." if num_args == 0 else ":"))
-    if num_args > 0:
-        for i in range(1, num_args + 1):
+    nb_arg = len(argv) - 1
+    print("{:d} argument{}".format(nb_arg, "" if nb_arg == 1 else "s"), end="")
+    print("{}".format("." if nb_arg == 0 else ":"))
+    if nb_arg > 0:
+        for i in range(1, nb_arg + 1):
             print("{:d}: {}".format(i, argv[i]))
