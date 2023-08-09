@@ -2,6 +2,6 @@
 def complex_delete(a_dictionary, value):
     new_made_a_dictionary = a_dictionary.copy()
     for key in new_made_a_dictionary:
-        if not new_made_a_dictionary[key] == value:
+        if new_made_a_dictionary[key] == value:
             del a_dictionary[key]
     return (a_dictionary)
